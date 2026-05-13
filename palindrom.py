@@ -10,6 +10,7 @@ class Solution(object):
                 left -= 1
                 right += 1
             return left + 1, right - 1
+        
 
         for i in range(len(s)):
             l, r = expand(i, i)
